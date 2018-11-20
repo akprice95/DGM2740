@@ -1,0 +1,36 @@
+/*Tablet */
+
+
+/*--HEADER--*/
+.logo {
+	padding: 1em .75em;
+}
+	header h1{padding-bottom: .1em;}
+	
+	.slogan {display: inline-block;}
+
+
+/*--NAV--*/
+nav {
+	ul li {
+	width: 25%; 
+	background-color: $secondaryColor;
+	border-bottom: solid 2px $secondaryColor; 
+	border-right: solid 3px $primColor;
+}/*end ul li*/
+	
+}
+
+/*--BODY--*/
+main {
+	background-color: #fff;
+	figure.photo {
+		width: 33%-$spacingdb;
+		margin: .5rem $spacing; 
+		float: left;
+	}
+    figure.fruitBanner{
+width: auto}
+
+
+}

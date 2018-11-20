@@ -1,0 +1,142 @@
+
+/*--Phone--*/
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+/*--BODY--*/
+body {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    overflow-x: hidden; 
+	background-color: $bodyColor;
+	font-size: 16px;
+	font-family: $defaultFont;
+	font-weight: $normalWeight;
+}
+
+/*--HEADER--*/
+.logo {
+	position: relative;
+    left: 1em;
+    top: 1em;
+	height: 150px;
+	float: left;
+
+}
+
+header{
+	max-width: 1140px;
+	color: $secondaryColor;
+	margin: auto;
+	padding: 1rem $spacing;
+	h1{
+	font-size: 36px; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: $normalWeight; 
+}
+	h2{
+	font-size: 26px; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: $normalWeight; 
+}
+	
+}
+
+
+
+
+/*--NAV--*/
+nav {
+	max-width: 1140px; 
+	width: 100%;
+	margin:auto; 
+	background-color: $secondaryColor;
+	ul li {
+	width: 25%; 
+	float: left; 
+	background-color: $secondaryColor; 
+	border-bottom: solid 1px rgba(0,0,0,0.3);
+	border-right: solid 1px rgba(0,0,0,0.3);
+}
+	ul li:last-child {border-right: none;}
+	ul li a {
+	display: block; 
+	color: $primColor; 
+	text-align: center;
+	font-weight: $boldWeight;
+	padding: 14px 16px; 
+	text-decoration: none; 
+	font-family: 'Open Sans'; 
+	font-size: 16px;
+	transition: background 0.75s ease, color 0.75s ease;
+}
+	li a.active {
+	background-color: darken($secondaryColor, 20%);
+}
+	ul li {
+	color:$secondaryColor;
+	background-color: $primColor;
+	}
+	
+}
+
+
+
+
+
+main {
+	margin: auto; 
+	max-width: 1140px; 
+	background-color: $bodyColor;
+
+	h1 {
+		font-size: 2rem;
+		margin: 1rem 0 0 $spacing;
+		color: $primColor;
+	}/*end h1*/
+	
+	
+    figure.photo figcaption {
+		text-align: center;
+		color: $primFont;
+	}
+    figure.photo {
+		width: 50%-$spacingdb;
+		margin: .5rem $spacing; 
+		float: left;
+	}
+	figure.photo img {
+		width: 100%;
+	}
+	
+    
+  .fruitBanner image{
+    margin: 0.5rem 2%; 
+      width: 75%; 
+    }
+
+}
+
+/*--FOOTER--*/
+footer {
+	width: 100%;
+	background-color: $secondaryColor;
+	margin: auto;
+	
+	p {
+		text-align: center; 
+		padding: .75rem 0;
+		font-size: .9rem;
+	}
+	
+}
+.keepOpen{
+	content: "";
+	display: table;
+	clear:both;
+}

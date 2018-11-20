@@ -1,0 +1,38 @@
+/*--Desktop--*/
+
+
+/*--header--*/
+div#wrapper {
+	max-width: 1140px;
+	margin: 2rem auto;
+	box-shadow: 0 0 10px #000000;
+	background-color: #fff;
+}
+
+
+/*--NAV--*/
+
+nav {
+	ul {
+	margin-left: $spacing;
+	}
+	ul li {
+	width: auto; 
+	}
+	ul li a {
+	padding: .5rem 1rem;
+	}
+
+}
+
+/*--BODY--*/
+main {
+	background-color: #fff;
+	figure.photo {
+		width: 25%-$spacingdb;
+		margin: .5rem $spacing; 
+		float: left;
+	}
+
+
+}
