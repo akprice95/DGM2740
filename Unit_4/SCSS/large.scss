@@ -1,38 +1,47 @@
 /*--Desktop--*/
 
 
-/*--header--*/
-div#wrapper {
-	max-width: 1140px;
-	margin: 2rem auto;
-	box-shadow: 0 0 10px #000000;
-	background-color: #fff;
+header{
+	background-image: url(/Images/adventure.jpg);
+    background-repeat: no-repeat, 
 }
-
-
-/*--NAV--*/
 
 nav {
-	ul {
-	margin-left: $spacing;
+	ul{
+	    max-width: 60rem;
+		margin: 0 auto;
+	    border-left: 1px solid rgba(0,0,0,0.3);
+		li{
+			width: auto;
+			a{
+			    padding: .5rem 1rem;
+			}
+
+		
+		}
+		li:last-child{
+			border-left: 1px solid rgba(0,0,0,0.3);
+		}
 	}
-	ul li {
-	width: auto; 
-	}
-	ul li a {
-	padding: .5rem 1rem;
-	}
+
+
 
 }
 
-/*--BODY--*/
-main {
-	background-color: #fff;
-	figure.photo {
-		width: 25%-$spacingdb;
-		margin: .5rem $spacing; 
-		float: left;
+main{
+	.blog{
+		article{
+			float: left;
+			width: 33.33% - $gutterDouble;
+		}
+		article:nth-child(2n+1) { clear: none;}
+		article:nth-child(3n+1) { clear: left;}
 	}
 
-
+}
+footer{
+	p{
+		max-width: 60rem;
+		margin: 0 auto;
+	}
 }

@@ -2,35 +2,23 @@
 
 
 /*--HEADER--*/
-.logo {
-	padding: 1em .75em;
-}
-	header h1{padding-bottom: .1em;}
-	
-	.slogan {display: inline-block;}
-
-
-/*--NAV--*/
-nav {
-	ul li {
-	width: 25%; 
-	background-color: $secondaryColor;
-	border-bottom: solid 2px $secondaryColor; 
-	border-right: solid 3px $primColor;
-}/*end ul li*/
-	
+header {
+    height:130px;
+    background-image: url(/Images/adventure.jpg);
 }
 
-/*--BODY--*/
-main {
-	background-color: #fff;
-	figure.photo {
-		width: 33%-$spacingdb;
-		margin: .5rem $spacing; 
-		float: left;
+/*  main  */
+main{
+	h2{
+		clear: left;
 	}
-    figure.fruitBanner{
-width: auto}
+	.blog{
+		article{
+			float: left;
+			width: 50% - $gutterDouble;
+		}
+		article:nth-child(2n+1) { clear: left;}
+	}
 
 
 }

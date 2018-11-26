@@ -99,7 +99,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: "Roboto", serif;
+  font-family: "Noto", serif;
   box-shadow: 0 0 10px #000; }
 
 /*  header  */
@@ -121,14 +121,16 @@ header {
     color: #FFF; }
 
 div#headerWrapper {
-  background-color: #fd5e53; }
+  background-color: lightblue; }
 
 /*  nav  */
 nav {
-  background-color: #4d9e3a; }
+  background-color: #FF5C5C; }
   nav ul {
     max-width: 60rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    overflow: hidden; }
     nav ul li {
       float: left;
       border-right: 1px solid rgba(0, 0, 0, 0.3);
@@ -140,10 +142,11 @@ nav {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 15px;
-        font-weight: 800; }
+        font-weight: 800;
+        transition: background 0.75s ease, color 0.75s ease; }
       nav ul li a:hover {
-        background-color: #fd5e53;
-        color: #4d9e3a; }
+        background-color: #3783B2;
+        color: #FF5C5C; }
     nav ul li:last-child {
       border-right: none; }
 
@@ -174,14 +177,14 @@ main {
       width: 100%; }
     main figure figcaption {
       text-align: center;
-      color: #4d9e3a; }
+      color: #FF5C5C; }
   main h2 {
     font-size: 1.5rem;
     margin: 0.75rem 0 0 2%;
-    color: #63be4d; }
+    color: #ff8f8f; }
   main h3 {
     font-size: 1.2rem;
-    color: #83cb73; }
+    color: #ffc2c2; }
   main p {
     line-height: 130%;
     color: black; }
@@ -193,17 +196,19 @@ main {
 footer {
   background-color: #fff;
   width: 100%;
-  background-color: #4d9e3a; }
+  background-color: #FF5C5C; }
   footer p {
     font-size: 1rem;
     padding: 0.75rem;
     text-align: center; }
     footer p a {
-      color: #fd5e53; }
+      color: #3783B2; }
 
+/* various extras */
 .active {
-  background-color: #fc2f21; }
+  background-color: #2b668b; }
 
+/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
@@ -214,7 +219,7 @@ footer {
   /*--HEADER--*/
   header {
     height: 130px;
-    background-image: url(/Images/adventure.jpg); }
+    background-image: url(../img/header1024.jpg); }
 
   /*  main  */
   main h2 {
@@ -228,7 +233,7 @@ footer {
   /*--Desktop--*/
   header {
     background-image: url(/Images/adventure.jpg);
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat, repeat-x; }
 
   nav ul {
     max-width: 60rem;

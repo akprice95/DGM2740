@@ -1,9 +1,9 @@
-$primColor: #ffff00;
-$secondaryColor: #ff0000;
-$defaultFont: 'Roboto', sans-serif;
-$normalWeight: 300;
-$boldWeight: 500;
-$primFont: #000;
-$bodyColor: #00ff00;
-$spacing: 2%;
-$spacingdb: (2 * $spacing);
+$font-stack: 'Roboto', serif;
+$normalWeight: 400;
+$boldWeight: 800;
+
+$primary-color: #4d9e3a;
+$secondary-color: #fd5e53;
+
+$gutter: 2%;
+$gutterDouble: (2 * $gutter);
