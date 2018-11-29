@@ -1,0 +1,41 @@
+/*--Desktop--*/
+
+
+header {
+	max-width: 75rem;
+	margin:0 auto;
+}
+
+nav {
+	max-width: 75rem;
+	margin:0 auto;
+	ul {
+		margin-left: 2%;
+		border-left: 1px solid rgba(0,0,0,0.3);
+	}
+	ul li {
+		width: auto;
+	}
+	ul li:last-child {border-right: 1px solid rgba(0,0,0,0.3);}
+	ul li a {
+		padding: .5rem 1rem;
+	}
+}
+main {
+	max-width: 75rem;
+	margin:0 auto;
+	article.multiCol {
+		column-count: 3;
+		-webkit-column-count: 3; /*Chrome, Safari, Opera*/
+		-moz-column-count: 3; /*Firefox*/
+		}
+	
+	figure.photoB {
+		width: 50%;
+	}
+
+footer {
+	max-width: 75rem;
+	margin:0 auto;
+}
+}

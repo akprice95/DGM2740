@@ -108,7 +108,7 @@ header {
   max-width: 60rem;
   margin: 0 auto;
   height: 110px;
-  background-image: url(/Images/adventure.jpg); }
+  background-image: url(../Images/adventure.jpg); }
   header h1 {
     padding: 1rem;
     font-weight: 800;
@@ -119,9 +119,6 @@ header {
     font-weight: 400;
     font-size: 1.4rem;
     color: #FFF; }
-
-div#headerWrapper {
-  background-color: #fd5e53; }
 
 /*  nav  */
 nav {
@@ -214,7 +211,7 @@ footer {
   /*--HEADER--*/
   header {
     height: 130px;
-    background-image: url(/Images/adventure.jpg); }
+    background-image: url(../Images/adventure.jpg); }
 
   /*  main  */
   main h2 {
@@ -227,7 +224,7 @@ footer {
 @media only screen and (min-width: 1140px) {
   /*--Desktop--*/
   header {
-    background-image: url(/Images/adventure.jpg);
+    background-image: url(../Images/adventure.jpg);
     background-repeat: no-repeat; }
 
   nav ul {

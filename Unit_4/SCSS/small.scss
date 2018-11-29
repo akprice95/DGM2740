@@ -19,7 +19,7 @@ header{
 	max-width: 60rem;
 	margin: 0 auto;
 	height:110px;
-    background-image: url(/Images/adventure.jpg);
+    background-image: url(../Images/adventure.jpg);
 
 	h1{
 		padding: 1rem;
@@ -34,9 +34,7 @@ header{
 		color: #FFF;
 	}
 }
-div#headerWrapper{
-	background-color: $secondary-color;
-}
+
 /*  nav  */
 nav {
 	background-color: $primary-color;

@@ -99,7 +99,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: "Noto", serif;
+  font-family: "Roboto", serif;
   box-shadow: 0 0 10px #000; }
 
 /*  header  */
@@ -108,7 +108,7 @@ header {
   max-width: 60rem;
   margin: 0 auto;
   height: 110px;
-  background-image: url(/Images/adventure.jpg); }
+  background-image: url(./Images/adventure.jpg); }
   header h1 {
     padding: 1rem;
     font-weight: 800;
@@ -120,17 +120,12 @@ header {
     font-size: 1.4rem;
     color: #FFF; }
 
-div#headerWrapper {
-  background-color: lightblue; }
-
 /*  nav  */
 nav {
-  background-color: #FF5C5C; }
+  background-color: #4d9e3a; }
   nav ul {
     max-width: 60rem;
-    margin: 0 auto;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    overflow: hidden; }
+    margin: 0 auto; }
     nav ul li {
       float: left;
       border-right: 1px solid rgba(0, 0, 0, 0.3);
@@ -142,11 +137,10 @@ nav {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 15px;
-        font-weight: 800;
-        transition: background 0.75s ease, color 0.75s ease; }
+        font-weight: 800; }
       nav ul li a:hover {
-        background-color: #3783B2;
-        color: #FF5C5C; }
+        background-color: #fd5e53;
+        color: #4d9e3a; }
     nav ul li:last-child {
       border-right: none; }
 
@@ -177,14 +171,14 @@ main {
       width: 100%; }
     main figure figcaption {
       text-align: center;
-      color: #FF5C5C; }
+      color: #4d9e3a; }
   main h2 {
     font-size: 1.5rem;
     margin: 0.75rem 0 0 2%;
-    color: #ff8f8f; }
+    color: #63be4d; }
   main h3 {
     font-size: 1.2rem;
-    color: #ffc2c2; }
+    color: #83cb73; }
   main p {
     line-height: 130%;
     color: black; }
@@ -196,19 +190,17 @@ main {
 footer {
   background-color: #fff;
   width: 100%;
-  background-color: #FF5C5C; }
+  background-color: #4d9e3a; }
   footer p {
     font-size: 1rem;
     padding: 0.75rem;
     text-align: center; }
     footer p a {
-      color: #3783B2; }
+      color: #fd5e53; }
 
-/* various extras */
 .active {
-  background-color: #2b668b; }
+  background-color: #fc2f21; }
 
-/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
@@ -219,7 +211,7 @@ footer {
   /*--HEADER--*/
   header {
     height: 130px;
-    background-image: url(../img/header1024.jpg); }
+    background-image: url(/Images/adventure.jpg); }
 
   /*  main  */
   main h2 {
@@ -232,8 +224,8 @@ footer {
 @media only screen and (min-width: 1140px) {
   /*--Desktop--*/
   header {
-    background-image: url(/Images/adventure.jpg);
-    background-repeat: no-repeat, repeat-x; }
+    background-image: url(./Images/adventure-header-2.jpg);
+    background-repeat: no-repeat; }
 
   nav ul {
     max-width: 60rem;
