@@ -1,0 +1,22 @@
+/*Tablet */
+/*  header  */
+header h2 {
+  font-size: 30px;
+  margin-left: 160px;
+  display: inline; }
+
+nav ul li {
+  width: 25%; }
+  nav ul li a {
+    font-size: 15px; }
+
+/*  main  */
+main .secondImage {
+  max-width: 50%;
+  float: right; }
+
+/*  footer  */
+footer p {
+  text-align: center;
+  background-color: deepskyblue;
+  font-size: 25px; }

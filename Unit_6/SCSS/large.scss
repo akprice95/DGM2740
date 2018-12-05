@@ -1,0 +1,45 @@
+/*--Desktop--*/
+
+
+nav {
+	ul{
+	    border-left: 1px solid rgba(0,0,0,0.3);
+		li{
+			width: auto;
+			a{
+			    padding: .5rem 1rem;
+			}
+
+		
+		}
+		li:last-child{
+			border-left: 1px solid rgba(0,0,0,0.3);
+		}
+	}
+}
+
+main{
+
+	article{
+		column-count:4;
+		-webkit-column-count:4;
+		-moz-column-count:4;
+
+		column-rule: 1px solid $secondary-color;
+		-webkit-column-rule: 1px solid $secondary-color;
+		-moz-column-rule: 1px solid $secondary-color;
+
+		column-gap: 50px;
+		-webkit-column-gap: 50px;
+		-moz-column-gap: 50px;
+
+	}
+
+	figure.bandMember{
+		width: 80%;
+		-webkit-clip-path: circle(50% at 50% 50%);
+		clip-path: circle(35% at 50% 50%);
+		shape-outside: circle(35% at 50% 50%);
+	}
+
+}

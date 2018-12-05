@@ -1,0 +1,285 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*--Phone--*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1rem;
+  font-family: "Alegreya", serif;
+  box-shadow: 0 0 10px #000; }
+
+header {
+  font-weight: 800;
+  max-width: 75rem;
+  margin: 0 auto;
+  height: 100px;
+  background-color: lightblue;
+  position: relative; }
+  header h1 {
+    margin-left: 7rem;
+    font-size: 2rem;
+    color: #FFF;
+    position: absolute;
+    bottom: 40px;
+    left: 20px; }
+  header h2 {
+    margin-left: 7rem;
+    font-size: 1.4rem;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 20px; }
+
+header ul.social {
+  position: absolute;
+  bottom: .5rem;
+  right: 2%; }
+
+header ul.social li {
+  list-style-type: none;
+  float: left;
+  width: auto; }
+
+header ul.social li a {
+  display: block;
+  margin: 0 auto;
+  background-image: url(../images/socialSprites.png);
+  height: 45px;
+  width: 45px; }
+
+header ul.social .twitter a {
+  background-position: -90px -45px; }
+
+header ul.social .youtube a {
+  background-position: -225px -45px; }
+
+header ul.social .facebook a {
+  background-position: -45px -45px; }
+
+header ul.social .twitter a:hover {
+  background-position: -90px -0px; }
+
+header ul.social .youtube a:hover {
+  background-position: -225px -0px; }
+
+header ul.social .facebook a:hover {
+  background-position: -45px -0px; }
+
+div#headerWrapper {
+  background-color: lightblue; }
+
+nav {
+  background-color: #3096B2; }
+  nav ul {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background-color: #3096B2;
+    max-width: 75rem;
+    margin: 0 auto; }
+    nav ul li {
+      float: left;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+      width: 25%; }
+      nav ul li a {
+        display: inline-block;
+        color: deepskyblue;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 15px;
+        font-weight: 800;
+        transition: background 0.75s ease, color 0.75s ease; }
+      nav ul li a:hover {
+        background-color: #A0A0A0;
+        color: #3096B2; }
+    nav ul li:last-child {
+      border-right: none; }
+
+main {
+  max-width: 75rem;
+  margin: 0 auto;
+  background-color: #fff; }
+  main h1 {
+    padding: 1rem;
+    font-size: 2rem; }
+  main h2 {
+    font-size: 1.5rem;
+    margin: 0.75rem 0 0 2%;
+    color: #47b1ce; }
+  main h3 {
+    font-size: 1.2rem;
+    color: #70c2d8; }
+  main article {
+    margin: 0.5rem 2%;
+    width: 96%; }
+  main figure {
+    width: 100%;
+    float: right; }
+    main figure img {
+      width: 100%; }
+  main figure.bandMember {
+    width: 50%;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(35% at 50% 50%);
+    shape-outside: circle(40% at 50% 50%); }
+
+footer {
+  background-color: #fff;
+  max-width: 75rem;
+  margin: 0 auto;
+  background-color: #3096B2; }
+  footer p {
+    font-size: 1rem;
+    padding: 0.75rem;
+    text-align: center; }
+    footer p a {
+      color: #A0A0A0; }
+
+.active {
+  background-color: #878787; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 35rem) {
+  /*Tablet */
+  header ul.social li a {
+    font-size: 2.5rem; }
+
+  main article {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-rule: 1px solid #A0A0A0;
+    -webkit-column-rule: 1px solid #A0A0A0;
+    -moz-column-rule: 1px solid #A0A0A0;
+    column-gap: 50px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px; }
+  main figure.bandMember {
+    width: 50%;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(35% at 50% 50%);
+    shape-outside: circle(40% at 50% 50%); } }
+@media only screen and (min-width: 75rem) {
+  /*--Desktop--*/
+  nav ul {
+    border-left: 1px solid rgba(0, 0, 0, 0.3); }
+    nav ul li {
+      width: auto; }
+      nav ul li a {
+        padding: .5rem 1rem; }
+    nav ul li:last-child {
+      border-left: 1px solid rgba(0, 0, 0, 0.3); }
+
+  main article {
+    column-count: 4;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-rule: 1px solid #A0A0A0;
+    -webkit-column-rule: 1px solid #A0A0A0;
+    -moz-column-rule: 1px solid #A0A0A0;
+    column-gap: 50px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px; }
+  main figure.bandMember {
+    width: 80%;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(35% at 50% 50%);
+    shape-outside: circle(35% at 50% 50%); } }

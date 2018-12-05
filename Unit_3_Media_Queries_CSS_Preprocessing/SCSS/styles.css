@@ -1,0 +1,253 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*--Phone--*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*--BODY--*/
+body {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #00ff00;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+/*--HEADER--*/
+.logo {
+  position: relative;
+  left: 1em;
+  top: 1em;
+  height: 150px;
+  float: left; }
+
+header {
+  max-width: 1140px;
+  color: #ff0000;
+  margin: auto;
+  padding: 1rem 2%; }
+  header h1 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; }
+  header h2 {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; }
+
+/*--NAV--*/
+nav {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  background-color: #ff0000; }
+  nav ul li {
+    width: 25%;
+    float: left;
+    background-color: #ff0000;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+    border-right: solid 1px rgba(0, 0, 0, 0.3); }
+  nav ul li:last-child {
+    border-right: none; }
+  nav ul li a {
+    display: block;
+    color: #ffff00;
+    text-align: center;
+    font-weight: 500;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    transition: background 0.75s ease, color 0.75s ease; }
+  nav li a.active {
+    background-color: #990000; }
+  nav ul li {
+    color: #ff0000;
+    background-color: #ffff00; }
+
+main {
+  margin: auto;
+  max-width: 1140px;
+  background-color: #00ff00;
+  /*end h1*/ }
+  main h1 {
+    font-size: 2rem;
+    margin: 1rem 0 0 2%;
+    color: #ffff00; }
+  main figure.photo figcaption {
+    text-align: center;
+    color: #000; }
+  main figure.photo {
+    width: 46%;
+    margin: 0.5rem 2%;
+    float: left; }
+  main figure.photo img {
+    width: 100%; }
+  main .fruitBanner image {
+    margin: 0.5rem 2%;
+    width: 75%; }
+
+/*--FOOTER--*/
+footer {
+  width: 100%;
+  background-color: #ff0000;
+  margin: auto; }
+  footer p {
+    text-align: center;
+    padding: .75rem 0;
+    font-size: .9rem; }
+
+.keepOpen {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 560px) {
+  /*Tablet */
+  /*--HEADER--*/
+  .logo {
+    padding: 1em .75em; }
+
+  header h1 {
+    padding-bottom: .1em; }
+
+  .slogan {
+    display: inline-block; }
+
+  /*--NAV--*/
+  nav {
+    /*end ul li*/ }
+    nav ul li {
+      width: 25%;
+      background-color: #ff0000;
+      border-bottom: solid 2px #ff0000;
+      border-right: solid 3px #ffff00; }
+
+  /*--BODY--*/
+  main {
+    background-color: #fff; }
+    main figure.photo {
+      width: 29%;
+      margin: 0.5rem 2%;
+      float: left; }
+    main figure.fruitBanner {
+      width: auto; } }
+@media only screen and (min-width: 1140px) {
+  /*--Desktop--*/
+  /*--header--*/
+  div#wrapper {
+    max-width: 1140px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px #000000;
+    background-color: #fff; }
+
+  /*--NAV--*/
+  nav ul {
+    margin-left: 2%; }
+  nav ul li {
+    width: auto; }
+  nav ul li a {
+    padding: .5rem 1rem; }
+
+  /*--BODY--*/
+  main {
+    background-color: #fff; }
+    main figure.photo {
+      width: 21%;
+      margin: 0.5rem 2%;
+      float: left; } }

@@ -1,0 +1,173 @@
+
+/*--Phone--*/
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+body{
+	font-size: 1rem;
+	font-family: $font-stack;
+	box-shadow: 0 0 10px #000;
+
+}
+
+header{
+	font-weight: $boldWeight;
+	max-width: 75rem;
+	margin: 0 auto;
+	height:100px;
+    background-color: lightblue;
+    position: relative;
+
+	h1{
+		margin-left: 7rem;
+		font-size: 2rem;
+		color: #FFF;
+		position:absolute;
+		bottom: 40px;
+		left: 20px;
+	}
+	h2{
+		margin-left: 7rem;
+		font-size: 1.4rem;
+		color: #FFF;
+		position:absolute;
+		bottom: 0;
+		left: 20px;
+	}
+}
+	 header ul.social {
+    position: absolute;
+    bottom: .5rem;
+    right: 2%; }
+  header ul.social li {
+    list-style-type: none;
+    float: left;
+    width: auto; }
+  header ul.social li a {
+    display: block;
+    margin: 0 auto;
+    background-image: url(../Images/socialSprites.png);
+    height: 45px;
+    width: 45px; }
+  header ul.social .twitter a {
+    background-position: -90px -45px; }
+  header ul.social .youtube a {
+    background-position: -225px -45px; }
+  header ul.social .facebook a {
+    background-position: -45px -45px; }
+  header ul.social .twitter a:hover {
+    background-position: -90px -0px; }
+  header ul.social .youtube a:hover {
+    background-position: -225px -0px; }
+  header ul.social .facebook a:hover {
+    background-position: -45px -0px; }
+div#headerWrapper{
+	background-color:lightblue;
+}
+
+nav {
+	background-color: $primary-color;
+	
+	
+	ul{
+		
+		border-bottom: 1px solid rgba(0,0,0,0.3);
+	    overflow: hidden;
+	    background-color: $primary-color;
+	    max-width: 75rem;
+		margin: 0 auto;
+		li{
+			float:left;
+			border-right: 1px solid rgba(0,0,0,0.3);
+			width: 25%;
+			a{
+				display: inline-block;
+			    color: deepskyblue;
+			    text-align: center;
+			    padding: 14px 16px;
+				font-size: 15px;
+				font-weight: $boldWeight;
+				transition: background 0.75s ease, color 0.75s ease;
+
+			}
+			a:hover{
+				background-color:$secondary-color;
+				color: $primary-color;
+			}
+		
+		}
+		li:last-child{
+			border-right:none;
+		}
+	}
+}
+
+main{
+	max-width: 75rem;
+	margin: 0 auto;
+	background-color: #fff;
+	h1{
+		padding: 1rem;
+		font-size:2rem ;
+	}
+	
+	h2{
+		font-size: 1.5rem;
+		margin: .75rem 0 0 $gutter;
+		color: lighten( $primary-color, 10%);
+	}
+	h3{
+		font-size: 1.2rem;
+		color: lighten( $primary-color, 20%);
+	}
+	article{
+		margin: .5rem $gutter;
+		width: 100% - $gutterDouble;
+		
+	}
+	figure {
+    width: 100%;
+    float: right;
+	    img{
+		    width: 100%;
+		}
+	}
+	figure.bandMember{
+		width: 50%;
+		-webkit-clip-path: circle(50% at 50% 50%);
+		clip-path: circle(35% at 50% 50%);
+		shape-outside: circle(40% at 50% 50%);
+	}
+}
+
+
+footer{
+	background-color: #fff;
+	max-width: 75rem;
+	margin: 0 auto;
+	background-color: $primary-color;
+	p{
+		font-size: 1rem;
+		padding:0.75rem;
+		text-align: center;
+		a{
+			color: $secondary-color;
+		}
+	}
+}
+
+.active{
+	background-color: darken($secondary-color, 10%);
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+        
